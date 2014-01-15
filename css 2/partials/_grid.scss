@@ -1,0 +1,26 @@
+// ----------------------------------------------------------
+// base grid - mobile first
+// ----------------------------------------------------------
+
+$total-columns  : 4;
+$column-width   : 6em;
+$gutter-width   : 1em;
+$grid-padding   : $gutter-width;
+
+$container-style: fluid;
+
+// @include border-box-sizing; // set box sizing here, or do it manually on * {}
+
+// -------------------------------
+// breakpoints these are s
+// -------------------------------
+
+$mobile                   : 20em 4; // 320
+$mobile-horizontal        : 30em 4; // 480
+$em35                     : 35em 6; // 560
+$em40                     : 40em 8; // 640
+$em44                     : 44em 10; // 704
+$tablet                   : 48em 12; // 768
+$em52                     : 52em 12; // 832
+$desktop                  : 60em 12; // 960
+$widedesktop              : 70em; // 960
